@@ -248,20 +248,28 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/3li.__4/"
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link:"https://www.facebook.com/profile.php?id=100016831995557&locale=ar_ARx"
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link:"https://x.com/AliElnoby911"
+    
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/ali-alnoby-79b5673a1/"
   },
 ];
+// const socialLinks[
+//   {}
+// ]
 
 export {
   words,

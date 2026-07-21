@@ -139,7 +139,7 @@ export default function GithubHeatmap() {
               <div key={wi} className="flex flex-col gap-[3px]">
                 {week.map((day, di) => (
                   <div
-                    key={di}
+                    key={day.date ?? di}
                     className={`w-[14px] h-[14px] rounded-sm ${LEVEL_COLORS[day.level ?? 0]} transition-all duration-150 hover:ring-1 hover:ring-white/30 cursor-default`}
                     title={`${day.count} contribution${day.count !== 1 ? "s" : ""} on ${day.date}`}
                   />
