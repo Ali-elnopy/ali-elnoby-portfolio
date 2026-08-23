@@ -14,19 +14,19 @@ import ReactLenis from "lenis/react";
 const App = () => {
   return (
     <ReactLenis root>
-        <Navbar/>
-        <Hero/>
-        <GithubHeatmap/>
-        <ShowcaseSection/>
-        <LogoShowcase/>
-        <FeatureCards/>
-        <Experience/>
-        {/* <TechStack/> */}
-        {/* <Testimonials/> */}
-        <Contact/>
-        <Footer/>
+      <Navbar />
+      <Hero />
+      <GithubHeatmap />
+      <ShowcaseSection />
+      <LogoShowcase />
+      <FeatureCards />
+      <Experience />
+      {/* <TechStack/> */}
+      <Testimonials />
+      <Contact />
+      <Footer />
     </ReactLenis>
-  )
-}
+  );
+};
 
-export default App
+export default App;
