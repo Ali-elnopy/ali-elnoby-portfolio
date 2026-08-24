@@ -41,7 +41,7 @@ const Contact = () => {
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
         />
 
-        <div className="w-[80%]  mt-16 mx-auto">
+        <div className="mx-auto mt-10 w-full max-w-4xl sm:mt-12 md:mt-16">
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
               <form
@@ -65,7 +65,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="name">Your Email</label>
+                  <label htmlFor="email">Your Email</label>
                   <input
                     type="email"
                     id="email"
@@ -79,7 +79,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="name">Your Message</label>
+                  <label htmlFor="message">Your Message</label>
                   <textarea
                     id="message"
                     name="message"
